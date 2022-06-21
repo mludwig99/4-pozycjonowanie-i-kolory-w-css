@@ -1,0 +1,80 @@
+main{
+    width: 80vh;
+    height: 80vh;
+    background-color: rgb(239, 243, 243);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+
+.sqare{
+    flex-basis: 33%;
+    height: 33%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+} 
+
+.box{
+    flex-basis:40% ;
+    height: 40%;
+    border-radius: 50%;
+
+}
+.sqare.red{
+    background-color: red;
+}
+.sqare.yellow{
+    background-color: yellow;
+}
+.sqare.green{
+    background-color: green;
+}
+.sqare.black{
+    background-color: rgb(18, 17, 17);
+}
+.sqare.grey{
+    background-color: grey;
+}
+.sqare.blue{
+    background-color: blue;
+}
+.sqare.purple{
+    background-color: purple;
+} 
+.sqare.pink{
+    background-color: pink;
+}
+.sqare.mint{
+    background-color: rgb(13, 186, 33);
+}
+
+.box.pink{
+    background-color: pink;
+}
+.box.red{
+    background-color: red;
+}
+.box.yellow{
+    background-color: rgb(244, 244, 5);
+}
+.box.green{
+    background-color: green;
+}
+.box.black{
+    background-color: black;
+}
+.box.grey{
+    background-color: grey;
+}
+.box.blue{
+    background-color: blue;
+}
+.box.purple{
+    background-color: purple;
+}
+.box.brown{
+    background-color: brown;
+}
